@@ -1,0 +1,7 @@
+THIS_FILE := $(lastword $(MAKEFILE_LIST))
+THIS_DIR := $(dir $(THIS_FILE))
+
+LOCAL_SRC_PATH := $(THIS_DIR)/src
+LOCAL_BUILD_PATH := $(THIS_DIR)/_build
+LOCAL_LIB_PATH := $(THIS_DIR)/_lib
+LOCAL_BIN_PATH := $(THIS_DIR)/_bin

@@ -1,0 +1,18 @@
+# Compiled objects
+
+_build/
+*.d
+*.o
+
+# Static libraries
+
+_lib/
+*.a
+
+# Executables
+
+_bin/
+*.exe
+
+# Input data
+*input.txt
